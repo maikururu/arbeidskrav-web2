@@ -1,15 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <h1>Hobbier for oss gutta krutt?</h1>
+  <p>Dette er bare en test før det skikkelige arbeidet begynner!</p>
+
+
+  <main>
+    <our-hobbies></our-hobbies>
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OurHobbies from './components/OurHobbies.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OurHobbies
+    
   }
 }
 </script>
