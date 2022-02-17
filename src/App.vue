@@ -1,31 +1,32 @@
 <template>
-
-<div>
-  <h3>test</h3>
-</div>
- 
+<main>
+  <nav-bar></nav-bar>
+  <footer-for></footer-for>
+</main>  
 </template>
 
 <script>
-
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import navBar from "./components/navBar.vue"
+import footerFor from "./components/footerFor.vue"
 
 export default {
   name: 'App',
   components: {
-   
-    
+    navBar,
+    footerFor
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style >
+  main{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+  }
+  h4{
+    font-size: 95%;
+  }
+  
 </style>
