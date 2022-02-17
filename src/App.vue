@@ -1,22 +1,19 @@
 <template>
 
-  <h1>Hobbier for oss gutta krutt?</h1>
-  <p>Dette er bare en test før det skikkelige arbeidet begynner!</p>
-
-
-  <main>
-    <our-hobbies></our-hobbies>
-  </main>
+<div>
+  <h3>test</h3>
+</div>
+ 
 </template>
 
 <script>
-import OurHobbies from './components/OurHobbies.vue'
+
 
 
 export default {
   name: 'App',
   components: {
-    OurHobbies
+   
     
   }
 }
